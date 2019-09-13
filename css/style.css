@@ -1,0 +1,61 @@
+.header
+{
+    background-color: #1e6083;
+}
+.header h2
+{
+    color: #fff;
+}
+#addBtn
+{
+    background-color: rgba(154, 153, 153, 0.9);
+    color: #fff;
+    border: 0;
+    border-radius: 0;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16.5px;
+}
+#addBtn:hover
+{
+    background-color: rgba(129, 129, 129,.9);
+}
+#myInp
+{
+    border: 0;
+    border-radius: 0 !important;
+}
+.list-content .myList li
+{
+    background-color: #eee;
+    color: #000;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid #124a67;
+}
+.list-content .myList li:hover
+{
+    background-color: #ddd;;
+}
+
+.list-content .myList li p
+{
+     overflow-wrap: break-word;
+     width: 90%;
+}
+.list-content .myList li #lClose
+{
+    cursor: pointer;
+}
+.list-content .myList li .closeIcon:hover
+{
+    background-color: #0d344d;
+}
+.list-content .myList li .closeIcon:hover #lClose
+{
+    color: #fff;
+}
+.completed {
+  color: gray;
+  text-decoration: line-through;
+}
