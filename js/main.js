@@ -32,11 +32,6 @@ function addNote()
     displayNote();
 }
 
-//Check off Specific Todos By Clicking
-$("li p").click(function(){
-    $(this).toggleClass("completed");
-})
-
 function displayNote()
 {
     var noteList=``;
@@ -49,6 +44,11 @@ function displayNote()
                     </li>`
         }
     $(".myList").html(noteList);
+    //Check off Specific Todos By Clicking
+    $("li p").click(function(){
+    $(this).toggleClass("completed");
+})
+
 }
 
 //Click on X to delete Todo
